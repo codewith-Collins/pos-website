@@ -16,7 +16,7 @@ COMPANY = {
     'registration': 'sole trader',
     'address': '[postal and physical address]',
     'email': 'murucollins@gmail.com',
-    'phone': '[support phone]',
+    'phone': '0180048478',
     'whatsapp': '',                        # e.g. 254712345678 (digits only); empty hides the link
     'licence_fee': '[licence fee]',
     'installation_fee': '[installation fee or "included"]',
