@@ -12,7 +12,7 @@ from pathlib import Path
 COMPANY = {
     'completed': False,
     'product': 'POS',
-    'name': 'Collin Muigai',
+    'name': 'Collins Muigai',
     'registration': 'sole trader',
     'address': '[postal and physical address]',
     'email': 'murucollins@gmail.com',
