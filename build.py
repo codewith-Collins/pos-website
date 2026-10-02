@@ -57,7 +57,6 @@ TEMPLATE = """<!doctype html>
       <nav class="site-nav" aria-label="Main">
         <a href="./#features">Features</a>
         <a href="./#how-it-works">How it works</a>
-        <a href="./#pricing">Pricing</a>
         <a href="./#faq">FAQ</a>
         <a class="nav-cta" href="./#contact">Contact us</a>
       </nav>
