@@ -10,7 +10,7 @@ import shutil
 from pathlib import Path
 
 COMPANY = {
-    'completed': False,
+    'completed': True,
     'product': 'POS',
     'name': 'Collins Muigai',
     'registration': 'sole trader',
