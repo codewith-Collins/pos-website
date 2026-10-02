@@ -14,13 +14,12 @@ COMPANY = {
     'product': 'POS',
     'name': 'Collins Muigai',
     'registration': 'sole trader',
-    'address': '[postal and physical address]',
     'email': 'murucollins@gmail.com',
     'phone': '0180048478',
     'whatsapp': '',                        # e.g. 254712345678 (digits only); empty hides the link
-    'licence_fee': '[licence fee]',
-    'installation_fee': '[installation fee or "included"]',
-    'support_fee': '[support fee per year, optional]',
+    'licence_fee': 'KSh 25,000 per shop, paid once',
+    'installation_fee': 'KSh 3,000',
+    'support_fee': 'optional; charged only if the shop asks for it, at a price agreed in writing first',
     'refund_days': '14',
     'last_updated': '2 October 2026',
 }
@@ -80,8 +79,8 @@ TEMPLATE = """<!doctype html>
 </html>
 """
 
-DRAFT = ('<aside class="draft" aria-label="Draft notice">Draft website: company details and prices in [brackets] '
-         'are still to be completed, and the legal pages are awaiting review by an advocate.</aside>')
+DRAFT = ('<aside class="draft" aria-label="Draft notice">Draft website: the legal pages are '
+         'awaiting review by an advocate.</aside>')
 
 
 def main():
