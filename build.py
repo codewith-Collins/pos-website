@@ -12,10 +12,10 @@ from pathlib import Path
 COMPANY = {
     'completed': False,
     'product': 'POS',
-    'name': '[Your company name]',
-    'registration': '[registration number]',
+    'name': 'Collin Muigai',
+    'registration': 'sole trader',
     'address': '[postal and physical address]',
-    'email': 'sales@example.com',          # placeholder: replace with your real address
+    'email': 'murucollins@gmail.com',
     'phone': '[support phone]',
     'whatsapp': '',                        # e.g. 254712345678 (digits only); empty hides the link
     'licence_fee': '[licence fee]',
