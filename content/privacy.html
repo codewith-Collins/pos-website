@@ -1,0 +1,70 @@
+    <div class="wrap legal">
+      <h1>Privacy policy</h1>
+      <p class="muted">Last updated {{last_updated}}</p>
+
+      <h2>This website</h2>
+      <p>
+        This website sets no cookies, has no forms, and uses no analytics, advertising or tracking. It is hosted by
+        GitHub Pages; GitHub records visitors' network addresses for security, as described in GitHub's privacy
+        statement. If you email or phone us, we use your details only to answer you and keep them no longer than needed.
+      </p>
+
+      <h2>The POS software: who is responsible</h2>
+      <p>
+        {{name}} ("we") makes the {{product}} point-of-sale software ("the POS"). It is installed on a computer in each
+        shop and runs there. <strong>We do not receive, store or have access to the shop's data</strong>: the POS sends no
+        usage statistics, analytics or data to us or anyone else, and we have no remote access.
+      </p>
+      <p>
+        The shop decides what it records and why, so <strong>the shop is the data controller</strong> for its customers'
+        and staff's personal data under the Kenya Data Protection Act, 2019. If a shop asks us for support that needs
+        access to its data, we act only on its written instructions, as a data processor.
+      </p>
+
+      <h2>What the POS stores</h2>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Table, scrolls sideways on small screens">
+        <table>
+          <thead><tr><th>Whose</th><th>What</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Customers (only if they agree)</td><td>Name; phone number and KRA PIN if given; purchases; when they agreed and who recorded it</td><td>To find them at the till, print their KRA PIN on tax receipts, and show purchase history. Basis: consent.</td></tr>
+            <tr><td>Everyone who buys</td><td>Sales, receipts, payments (including M-Pesa codes), returns</td><td>Running the shop and keeping the records tax law requires. Basis: legal obligation.</td></tr>
+            <tr><td>Staff</td><td>Name, username, role, password (stored only as a one-way hash), sign-ins and actions, with the device's network address</td><td>Access control, security and accountability. Basis: contract and legitimate interest.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The POS does not ask for email addresses, dates of birth, ID numbers or locations.</p>
+
+      <h2>How long it is kept</h2>
+      <ul>
+        <li>Sales, payment, return and stock records: at least 5 years, as Kenyan tax law requires.</li>
+        <li>Sign-in and security events: 12 months, then deleted automatically.</li>
+        <li>Password reset requests: 90 days after they are closed.</li>
+        <li>Customer details: until the customer asks for them to be erased.</li>
+        <li>Backups: the shop's most recent nightly backups (30 by default).</li>
+      </ul>
+
+      <h2>Your rights</h2>
+      <p>
+        You may ask a shop for a copy of your data, to correct it, or to erase it, and you may withdraw consent. The
+        shop's administrator can download your data or erase your name, phone number and KRA PIN in the POS. Past sales
+        stay in the shop's records without your details, because tax law requires them. You may complain to the Office
+        of the Data Protection Commissioner (<a href="https://www.odpc.go.ke">www.odpc.go.ke</a>).
+      </p>
+
+      <h2>Security</h2>
+      <p>
+        Data stays on the shop's computer in a database only the POS can open. Passwords are hashed, sign-ins lock after
+        repeated wrong passwords, every important action is recorded, and backups are checked nightly. Traffic between
+        devices on the shop's own network is not encrypted (no HTTPS) in this version, so shops should protect their
+        Wi-Fi with a strong password and give customers a separate guest network.
+      </p>
+
+      <h2>Sharing and transfers</h2>
+      <p>
+        The POS shares data with no one. If a shop chooses a cloud-synced folder (for example Google Drive or OneDrive)
+        for a backup copy, that provider stores the backups, possibly outside Kenya; that is the shop's choice under the Act.
+      </p>
+
+      <h2>Contact</h2>
+      <p>{{name}}, {{address}}. Email <a href="mailto:{{email}}">{{email}}</a>, phone {{phone}}.</p>
+    </div>
